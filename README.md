@@ -51,7 +51,11 @@
 
 2. **Install dependencies:**
    ```bash
-   pip install pygame
+   pip install -r requirements.txt
+   ```
+   Or install Pygame directly:
+   ```bash
+   pip install pygame>=2.0.0
    ```
 
 3. **Run the game:**
@@ -120,10 +124,11 @@ INITIAL_LENGTH = 3
 - **Python 3.7+**
 - **Pygame 2.0+** - for graphics and input processing
 
-### 📁 Структура проекта:
+### 📁 Project structure:
 ```
 snake/
 ├── snake.py          # Main game file
+├── requirements.txt  # Python dependencies
 ├── README.md         # Documentation
 └── LICENSE          # MIT License
 ```
@@ -140,7 +145,7 @@ snake/
 
 💡 **Have ideas for improvement?** We welcome contributions to the project!
 
-### Как внести вклад:
+### How to contribute:
 1. 🍴 **Fork** the project
 2. 🌿 **Create** a feature branch (`git checkout -b feature/amazing-feature`)
 3. 💾 **Make a commit** of your changes (`git commit -m 'Add amazing feature'`)
